@@ -1,0 +1,41 @@
+For this we use shall
+python3
+#Ex:1 
+username = 'Ritik'
+username
+//OutPut 'Ritik'
+username = 'Ritik parikh'
+username
+//OutPut 'Ritik parikh'
+
+#Ex:2
+x = 10
+y = x
+y
+//OutPut 10
+x = 15
+y
+//OutPut 10
+
+
+See in above variable y value has no change why it happen understand below
+Python has works on immutable and mutable datatype
+immutable means can't change 
+mutable means data can be change
+immutable data types are -> Integers, Floating-point numbers, Boolean, Strings, Tuples, Frozen Set, Bytes
+mutable --> List, Set, Dictionary, Bytearray, Array
+
+#But example 1 sees the username string change then it how be immutable
+ -- So here Python internal working is variable never be use to allocate memory, actual on data allocate memory and variable reference them
+ -- So what happens Ritik allocate memory then username reference to Ritik data, but when you type username = 'Ritik parikh' it create new memory and username reference to it 
+    now in memory, two data is there one is "Ritik" and second is 'Ritik parikh' but "Ritik" is garbage value because no variable reference/point the data 
+    and python has default garbage collector so it remove that data from the memory
+
+#SO lets understand the ex 2
+ -- Here memory assign to 10 that reference by x
+ -- Now create new variable y that reference value is 10 so two variable reference same value
+ -- now we create new memory for 15 and reference give to x so y is reference the value 10 but x reference new value 10 15
+
+ So that variable dons;t allocate memory is reference to the value
+
+ And all datatypes are objects
