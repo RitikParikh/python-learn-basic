@@ -4,3 +4,6 @@ def hello(n):
     print(n)
 
 hello("Lemon tea")
+
+one = "One"
+tow = "Twp"
