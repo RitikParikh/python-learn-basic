@@ -1,4 +1,4 @@
-Python shall initiate using --> python3 in terminal
+Python shell initiate using --> python3 in terminal
 print (10)
 
 2+2

@@ -6,4 +6,4 @@ def hello(n):
 hello("Lemon tea")
 
 one = "One"
-tow = "Twp"
+tow = "Two"
