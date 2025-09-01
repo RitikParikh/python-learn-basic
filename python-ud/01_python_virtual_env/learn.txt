@@ -1,0 +1,11 @@
+//Traditional way
+1. every codebase make own venv file alwasy avoid confict frim global package version changes
+2. Fore create venv - python3 -m venv .venv   
+3. activate venv - source .venv/bin/activate 
+4. install packages - pip install -r requirments.txt
+5. you can add version of third party packages in requirments.txt
+6. deactivate venv - deactivate
+7. to remove venv - rm -rf .venv
+8. to create requirments.txt - pip freeze > requirments.txt
+
+//New tool is uv nextfoldar
